@@ -10,8 +10,8 @@ var crawler = require("nbacrawler");
 ```
 
 ```javascript
-var today = new Date();						//	today
-var date = new Date(2017, 1 - 1, 3);		//	month is zero basic
+var today = new Date();	      //	today
+var date = new Date(2017, 1 - 1, 3);      //	month is zero basic
 
 var info = crawler.makeInfo(date);
 console.log(info);
