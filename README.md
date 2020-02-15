@@ -1,6 +1,6 @@
 # NBA Crawler Module
 This is a crawler about NBA scores.
-#Download
+# Download
 `npm install nbacrawler`
 # Usage
 ```javascript
