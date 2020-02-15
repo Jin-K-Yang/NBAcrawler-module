@@ -1,0 +1,26 @@
+{
+  "name": "nbacrawler",
+  "version": "1.0.0",
+  "description": "the crawler of NBA score",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jin-K-Yang/NBAcrawler_module.git"
+  },
+  "keywords": [
+    "NBA",
+    "crawler"
+  ],
+  "author": "Ken",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Jin-K-Yang/NBAcrawler_module/issues"
+  },
+  "homepage": "https://github.com/Jin-K-Yang/NBAcrawler_module#readme",
+  "devDependencies":{
+    "request" : "2.88.2"
+  }
+}
