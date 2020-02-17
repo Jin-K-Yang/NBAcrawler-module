@@ -13,8 +13,9 @@ var crawler = require("nbacrawler");
 var today = new Date();	      //	today
 var date = new Date(2017, 1 - 1, 3);      //	month is zero basic
 
-var info = crawler.makeInfo(date);
-console.log(info);
+crawler.makeInfo(date).then((result)=>{
+	console.log(result);
+})
 
 /* logs the following:
 [ 
